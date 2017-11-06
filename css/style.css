@@ -1,0 +1,86 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+}
+body {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+  position: relative;
+
+}
+
+/*
+ * Navbar
+ */
+
+.navbar {
+  margin-bottom: 0;
+}
+
+/*
+ * Cover
+ */
+
+.cover-outer{
+  height: 90vh;
+  width: 100%;
+  display: table;
+  overflow-y: hidden;
+}
+
+.cover-middle{
+  display: table-cell;
+  vertical-align: middle;
+  position: relative;  
+}
+
+.cover-inner{ 
+  margin-left: auto;
+  margin-right: auto; 
+  width: 50%;
+}
+
+/*removes scroll bar*/
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.lead{
+  color: #91989c;
+}
+
+/*
+ * Buttons
+ */
+
+.btn-warning, .btn-warning:active, .btn-warning:hover, .btn-warning:focus, .btn-secondary:focus{
+  color: #313639;
+}
+
+/*
+ * Media Queries
+ */
+
+@media screen and (max-width: 720px) {
+
+  .cover-inner{ 
+      width: 95%;
+  }
+}
